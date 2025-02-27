@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout with Effects</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f5f5f5;
+            transition: background 0.5s;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 55.7vh 3.3vh 40vh;
+            width: 100vw;
+            height: 100vh;
+            border: 0.1px solid black;
+        }
+
+        .top-left, .top-right, .bottom-right, .bottom-left {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .top-left {
+            background: #ffc81f;
+            border: 0.1px solid black;
+        }
+
+        .top-right {
+            background: #ff7693;
+            border: 0.1px solid black;
+        }
+
+        .middle {
+            background: #dcdee6;
+            grid-column: span 2;
+            border: 0.1px solid black;
+            transition: background 0.5s;
+        }
+
+        .bottom-left {
+            background: #8ae3f2;
+            border: 0.1px solid black;
+        }
+
+        .bottom-right {
+            background: #ffffff;
+            border: 0.1px solid black;
+        }
+
+        .SBar1, .SBar2 {
+            width: 100%;
+            height: 7vh;
+            background: #ffffff;
+            transition: background 0.3s;
+        }
+
+        .SBar1 {
+            position: absolute;
+            bottom: 0;
+            border-top: 2px solid black;
+        }
+
+        .SBar2 {
+            position: absolute;
+            top: 0;
+            border-bottom: 2px solid black;
+        }
+
+        .Bbar {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 10vh;
+            background: #fee563;
+            border-top: 2px solid black;
+            transition: transform 0.5s;
+        }
+
+        .SBar1:hover, .SBar2:hover {
+            background: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="top-left">
+            <div class="SBar1"></div>
+        </div>
+        <div class="top-right">
+            <div class="SBar2"></div>
+        </div>
+        <div class="middle"></div>
+        <div class="bottom-left"></div>
+        <div class="bottom-right">
+            <div class="Bbar"></div>
+        </div>
+    </div>
+</body>
+</html>
