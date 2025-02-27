@@ -34,4 +34,4 @@ Check out the live demo: [Language Learning Platform](https://dancingpumpkin65.g
 - **Performance Optimized:** Minimized repaints and optimized animations
 
 ## License  
-This project is open-source. Feel free to use and modify it!  
+This project is licensed under the MIT `License`. See the LICENSE file for details. 
