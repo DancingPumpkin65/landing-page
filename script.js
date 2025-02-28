@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     initScrollAnimations();
     addPlayfulAnimations();
     initNavbarTransformation();
+    // Note: init3DModel is now handled in HTML via module import
 });
 
 /* ==========================

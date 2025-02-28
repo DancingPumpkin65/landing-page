@@ -1,0 +1,142 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 20002,
+            "type": "VEC3",
+            "max": [
+                0.9951058030128479,
+                0.7600966691970825,
+                0.09964978694915771
+            ],
+            "min": [
+                -1.000284194946289,
+                -0.771777868270874,
+                -0.10528483986854553
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 20002,
+            "type": "VEC3",
+            "max": [
+                0.9999999403953552,
+                0.9999995231628418,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -0.9999998211860657,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 120000,
+            "type": "SCALAR",
+            "max": [
+                20001
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 960048,
+            "uri": "dsds_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 240024,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 240024,
+            "byteLength": 240024,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 480048,
+            "byteLength": 480000,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.800000011920929
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "dsds",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "world",
+            "children": [
+                2
+            ],
+            "extras": {
+                "name": "world"
+            }
+        },
+        {
+            "name": "tmpl3vje6kdply",
+            "mesh": 0,
+            "extras": {
+                "processed": true,
+                "name": "tmpl3vje6kd.ply"
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
